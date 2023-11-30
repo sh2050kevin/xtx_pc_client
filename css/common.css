@@ -3,3 +3,229 @@
     margin: 0 auto;
     width: 1240px;
 }
+.shortcut {
+    height: 52px;
+    width: 100%;
+    background-color: #333;
+}
+
+.shortcut .wrapper {
+    height: 52px;
+}
+
+.shortcut .wrapper ul {
+    float: right;
+}
+
+.shortcut .wrapper ul li {
+    float: left;
+    line-height: 52px;
+}
+
+.shortcut .wrapper ul li a {
+  padding: 0 16px;
+  border-right: 1px solid #666;
+  font-size: 14px;
+  color: #dcdcdc;
+}
+
+.shortcut .wrapper ul li a span {
+  display: inline-block;
+  margin-right: 8px;
+  width: 11px;
+  height: 16px;
+  background-image: url(../images/sprites.png);
+  background-position: -160px -70px;
+  vertical-align: middle;
+}
+.shortcut .wrapper ul li:last-child a {
+  border: 0;
+}
+.header {
+  height: 70px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  /* margin-left: 25px; */
+  /* background-color: pink; */
+}
+.header .logo {
+  float: left;
+  width: 209px;
+  height: 70px;
+  background-image: url(../images/logo.png);
+  background-size: 209px 70px;
+  /* background-color: green; */
+}
+.header .logo h1 a {
+  font-size: 0;
+}
+
+.header .nav {
+  float: left;
+  margin-left: 40px;
+  margin-right: 82px;  
+  /* background-color: blue; */
+}
+.header .nav ul {
+  float: left;
+}
+.header .nav li {
+  float: left;
+
+  /* line-height: 70px; */
+  margin-right: 48px;
+  
+}
+.header .nav li a {
+  display: block;
+  width: 32px;
+  padding-bottom: 3px;
+  padding-top: 26px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0);
+}
+
+.header .nav li a:hover {
+  border-bottom: 1px solid #27ba9b;
+
+}
+
+.header .search {
+  position: relative;
+  float: left;
+  line-height: 70px;
+  /* background-color: red; */
+}
+.header .search input {
+  border-bottom: 2px solid #e7e7e7 ;
+
+}
+.header .search input::placeholder {
+  display: inline-block;
+  font-size: 14px;
+  color: #ccc;
+  margin-left: 11px;
+}
+.header .search span {
+  position: absolute;
+  left: 2px;
+  top: 25px;
+  width: 17px;
+  height: 17px;
+  background-image: url(../images/sprites.png);
+  background-position: -79px -69px;
+
+}
+.header .car {
+  position: relative;
+  width: 23px;
+  height: 23px;
+  float: left;
+  margin-top: 26px;  
+  margin-left: 15px;
+  background-image: url(../images/sprites.png);
+  background-position: -120px -70px;
+}
+.header .car span {
+  position: absolute;
+  top: -5px;
+  left: 11px;
+  width: 20px;
+	height: 15px;
+	background-color: #e26237;
+	border-radius: 8px;
+  text-align: center;
+  line-height: 15px;
+  color: rgb(255,255,255);
+} 
+
+/* 版权区域布局 */
+.footer {
+  height: 342px;
+  background-color: #333;
+}
+
+.footer .wrapper {
+  width: 1393px;
+}
+
+.footer .wrapper .top {
+  height: 174px;
+  width: 100%;
+  border-bottom: 3px solid #434343;
+}
+.footer .wrapper .top ul {
+  padding-left: 84px;
+}
+
+.footer .wrapper .top li {
+  float: left;
+  position: relative;
+  margin-right: 300px;
+  margin-top: 57px;
+  margin-bottom: 54px;
+  width: 186px;
+  height: 58px;
+  line-height: 58px;
+}
+
+.footer .wrapper .top li:last-child {
+  margin-right: 0;
+}
+.footer .wrapper .top li:first-child::before {
+  position: absolute;
+  content: '';
+  width: 58px;
+  height: 58px;
+  background-image: url(../images/sprites.png);
+}
+
+.footer .wrapper .top li:first-child span {
+  padding-left: 60px;
+  font-size: 28px;
+  color: #fff;
+}
+.footer .wrapper .top li:nth-child(2)::before {
+  position: absolute;
+  content: '';
+  width: 58px;
+  height: 58px;
+  background-image: url(../images/sprites.png);
+  background-position: -130px 0;
+}
+
+.footer .wrapper .top li:nth-child(2) span {
+  padding-left: 60px;
+  font-size: 28px;
+  color: #fff;
+}
+.footer .wrapper .top li:nth-child(3)::before {
+  position: absolute;
+  content: '';
+  width: 58px;
+  height: 58px;
+  background-image: url(../images/sprites.png);
+  background-position: -65px 0;
+}
+
+.footer .wrapper .top li:nth-child(3) span {
+  padding-left: 60px;
+  font-size: 28px;
+  color: #fff;
+}
+
+
+.footer .wrapper .bottom {
+  height: 166px;
+  color: #999;
+  font-size: 14px;
+  text-align: center;
+}
+
+.footer .wrapper .bottom .link {
+  padding-top: 41px;
+  padding-bottom: 18px;
+}
+
+
+
+
